@@ -1,0 +1,15 @@
+// giải phương trình đồng dư 
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main() {
+  int a,b,m;
+  cin>>a>>b>>m;
+  for (int i=0;i<m;i++){
+    if ((long long)i*a % m == b){
+      cout<<i<<endl;
+    }
+  }
+return 0;
+}
